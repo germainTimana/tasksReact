@@ -1,6 +1,7 @@
 {
   "name": "react-task-app",
   "private": true,
+  "homepage": "https://germainTimana.github.io/tasksReact",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,6 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeplot": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
